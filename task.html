@@ -1,0 +1,23 @@
+
+<html>
+<body>
+    <br/>
+    <div id="d1">Your code reflect here!</div>
+    <br/><br/>
+    <textarea name="" id="d3" cols="100" rows="10" placeholder="Enter your code here!" onkeyup="interpeter()">
+
+    </textarea>
+<br/><br/>
+    <button onclick="interpeter()">click me</button>
+
+    <script>
+        function interpeter(){
+            x = document.getElementById("d1");
+            z = document.getElementById("d3");
+            x.innerHTML = z.value;
+            console.log(Math.random()); 
+        }
+
+    </script>
+</body>
+</html>
